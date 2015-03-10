@@ -9,7 +9,7 @@ import http.cookiejar
 url = 'http://courses.iust.ac.ir/login/index.php'
 
 
-data = urllib.parse.urlencode({'username': "93522072", 'password': 'hihitler', 'rememberusername':'0'})
+data = urllib.parse.urlencode({'username': "93522072", 'password': 'hihitler'})
 data = data.encode('utf-8')
 
 
